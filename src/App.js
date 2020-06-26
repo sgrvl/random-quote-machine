@@ -13,7 +13,7 @@ class App extends React.Component {
 		};
 		this.newQuote = this.newQuote.bind(this);
 	}
-	/* Math.floor(Math.random() * 16777215).toString(16) */
+	// Previously: Math.floor(Math.random() * 16777215).toString(16)
 	newQuote() {
 		this.setState({
 			randomNum: Math.floor(Math.random() * 102),
